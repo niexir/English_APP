@@ -1,0 +1,137 @@
+.mui-scroll {
+    /*padding:15px;*/
+}
+/*main-card*/
+.main-card{
+    background: #BEE0DD;
+    position: relative;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.main-card img.card-bg{
+    width: 100%;
+}
+.main-card .card-body{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.main-card .card-text{
+    width: 100%;
+    height: 100%;
+    padding: 3.5% 3% 0 21%;
+}
+.main-card .card-text p{
+    line-height: 17px;
+}
+.main-card .card-text b{
+    font-weight: normal;
+}
+.main-card .mark-text{
+    position: absolute;
+}
+.main-card .mark-text-0{
+    top: 45%;
+    left: 5%;
+}
+.main-card .mark-text-1{
+    bottom: 12%;
+    left: 28%;
+}
+.main-card .mark-text-2{
+    bottom: 40%;
+    left: 46%;
+}
+.main-card .mark-text-3{
+    bottom: 26%;
+    right: 29%;
+}
+.main-card .mark-text-4{
+    bottom: 28%;
+    right: 3%;
+}
+.main-title i{
+    position: relative;
+    top: 2px;
+}
+/*calendar*/
+.see-past-btn{
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding:0 5px;
+}
+.calendar-card{
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgb(255, 255, 255);
+    background: -moz-linear-gradient(90deg, rgb(255, 255, 255) 66%, rgb(237, 237, 237) 100%);
+    background: -webkit-linear-gradient(90deg, rgb(255, 255, 255) 66%, rgb(237, 237, 237) 100%);
+    background: -o-linear-gradient(90deg, rgb(255, 255, 255) 66%, rgb(237, 237, 237) 100%);
+    background: -ms-linear-gradient(90deg, rgb(255, 255, 255) 66%, rgb(237, 237, 237) 100%);
+    background: linear-gradient(180deg, rgb(255, 255, 255) 66%, rgb(237, 237, 237) 100%);
+}
+.layui-laydate, .layui-laydate-hint,.layui-laydate-main,.layui-laydate-content table {
+    width: 100% !important;
+}
+.layui-laydate-content .laydate-day-next, .layui-laydate-content .laydate-day-prev {
+    color: #d0d0d0 !important;
+}
+.layui-laydate, .layui-laydate-hint {
+    border:none !important;
+    box-shadow:unset !important;
+    background-color: transparent !important;
+}
+.layui-laydate-content td {
+    color: #000 !important;
+    font-weight: bold !important;
+}
+.layui-laydate-header,.calendar-head {
+    display: none;
+}
+@media (min-width: 700px) {
+    .main-card .card-text p{
+        line-height: 35px;
+    }
+    .main-card .mark-text-0{
+        top: 49%;
+        left: 5.5%;
+    }
+    .main-card .mark-text-1{
+        bottom: 13%;
+        left: 28.5%;
+    }
+    .main-card .mark-text-2{
+        bottom: 42%;
+        left: 46.5%;
+    }
+    .main-card .mark-text-3{
+        bottom: 27%;
+        right: 29.5%;
+    }
+    .main-card .mark-text-4{
+        bottom: 29%;
+        right: 3.5%;
+    }
+    .see-past-btn{
+        padding:8px;
+        margin-top:-2px;
+    }
+    .calendar-card>ul>li{
+        line-height: 30px;
+    }
+}
+@media (min-width: 1000px) {
+    .main-card .card-text{
+        padding: 4% 3% 0 21%;
+    }
+    .main-card .card-text p{
+        line-height: 45px;
+    }
+}
